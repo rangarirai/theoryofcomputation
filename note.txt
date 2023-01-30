@@ -1,0 +1,2 @@
+- the 2 files playground.js must have common logic extracted out into a custom hook eg useDFA. 
+- the jsx of playground.js must  be put in a single sharable playground.js file

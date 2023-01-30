@@ -1,0 +1,57 @@
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+      </head>
+      <body>
+        <svg
+        width="500"
+        height="500"
+        style="position: relative"
+      >
+        <defs>
+          <marker
+            id="markerArrow1"
+            markerWidth="13"
+            markerHeight="13"
+            refX="2"
+            refY="6"
+            orient="auto"
+          >
+            <path d="M2,2 L2,11 L10,6 L2,2" />
+          </marker>
+        </defs>
+    <line
+      x1="50"
+      y1="50"
+      x2="70"
+      y2="50"
+      style="
+        position: absolute;
+        cursor: move;
+        stroke: #006600;
+        marker-end: url(#markerArrow1); 
+      "
+     
+    />
+    <line
+    x1="100"
+    y1="50"
+    x2="190"
+    y2="50"
+    style="
+      position: absolute;
+      cursor: move;
+      stroke: #006600;
+      marker-end: url(#markerArrow1); 
+      stroke-width: 10;
+    "
+   
+  />
+      </svg>
+      </body>
+      </html>
